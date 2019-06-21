@@ -20,4 +20,4 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- script: npm test
+- script: mocha test --reporter mocha-junit-reporter
