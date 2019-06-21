@@ -15,9 +15,6 @@ steps:
     versionSpec: '10.x'
   displayName: 'Install Node.js'
 
-# - script: npm install --only=dev
-# - script: npm install -g @angular/cli
-
 - script: |
     npm install
     npm run build
