@@ -1,5 +1,21 @@
 # Sample NodeJS application for Azure Pipelines docs
 
+## Status
+|   | Build & Test |
+|---|:-----:|
+|![Win](docs/res/win_med.png) **Windows**|[![Build & Test][win-build-badge]][win-build]| 
+|![macOS](docs/res/apple_med.png) **macOS**|[![Build & Test][macOS-build-badge]][macOS-build]| 
+|![Linux](docs/res/linux_med.png) **Linux**|[![Build & Test][linux-build-badge]][linux-build]|
+
+[win-build-badge]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines&jobName=Job
+[win-build]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines&jobName=Job
+
+[macOS-build-badge]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines
+[macOS-build]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines
+
+[linux-build-badge]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines
+[linux-build]: https://dev.azure.com/iviiv/pipelines-javascript/_apis/build/status/i7poxop.pipelines-javascript%20(1)?branchName=azure-pipelines
+
 For information on how to set up a pipeline for this repository, see [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/get-started-yaml?view=azure-devops).
 For more information on building JavaScript or NodeJS applications, see [JavaScript](https://docs.microsoft.com/azure/devops/pipelines/languages/javascript).
 
